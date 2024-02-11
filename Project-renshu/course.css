@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family--3) !important;
+}
+@media print {
+ * {
+  visibility: hidden;
+}
+}
+body::-webkit-scrollbar {
+display: none !important;
+}
+a{
+    text-decoration: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --font-family--1: 'EB Garamond', serif;
+    --font-family--2: 'Playfair Display', serif;
+    --font-family--3: 'Crimson Text', serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    /* background-image: url(./img/bg3.jpg); */
+    /* background-size: 100%; */
+
+}
+.java-hero-pic{
+    width: 95vw;
+    height: 200px;
+    background-image: url(./img/java.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    position: relative;
+    top: 80px;
+    border-radius: 15px;
+    aspect-ratio: 16/9;
+}
+.couser-drop-info{
+    position: relative;
+    top: 375px;
+    width: 90%;
+    height: inherit;
+    margin: 0px auto;
+    padding-bottom: 50px;
+}
+.syllabus-head{
+    text-align: center;
+}
+.syllabus-head h1{
+ font-size: 20px;
+}
+.drop-con{
+  background-color: #ffffff;
+  padding:  0px 10px 10px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.219);
+   margin-top: 40px;
+   text-align: left;
+
+}
+#drop{
+  border: none !important;
+}
+.drop {
+    background-color:#cbcbcb00;
+    border-top: 1px solid rgba(0, 0, 0, 0.219);
+    padding: 10px 30px 0px 30px;
+}
+.drop h1{
+ font-size: 18px;
+}
+.topics{
+  width: 98.2%;
+  margin: 0 auto;
+    display: none;
+    background-color: rgba(216, 216, 216, 0);
+    padding: 10px 30px 0px 60px;
+}
+.couser-drop-info li p {
+    font-size: 16px;
+    color: black !important;
+
+}
+.java-footer{
+    font: 1em var(--font-family--3);
+    position: relative;
+    top: 130px;
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    justify-content: space-between;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.why-java h2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.why-java{
+    position: relative;
+    top: 350px;
+    text-align: left;
+    padding: 0px 30px 0px  40px;
+}
+.why1{
+  top: 30px !important;
+  padding: 0px 30px 0px 20px ;
+}
+.thought {
+    display:flex;
+    background-color:#0f2036;
+    padding:20px;
+    border-radius:30px;
+     width:100%;
+    min-height:40px;
+    margin: 0 auto;
+    position:relative;
+    align-items:self-start;
+    flex-direction: column;
+    justify-content:center;
+    text-align:center;
+    color: white;
+  }
+  .thought:before,
+  .thought:after {
+    content:"";
+    background-color:#0f2036;
+    border-radius:50%;
+    display:block;
+    position:absolute;
+    z-index:-1;
+  }
+  .thought:before {
+    width:44px;
+    height:44px;
+    top:-12px;
+    left:28px;
+    box-shadow:-50px 30px 0 -12px #0f2036;
+  }
+  .thought:after {
+    bottom:-10px;
+    right:26px;
+    width:30px;
+    height:30px;
+    box-shadow:40px -34px 0 0 #0f2036,
+               -28px -6px 0 -2px #0f2036,
+               -24px 17px 0 -6px #0f2036,
+               -5px 25px 0 -10px #0f2036;
+    
+  }
+  .faq-section {
+    width: 100%;
+    position: relative;
+    top: 40px;
+    margin: 0 auto;
+    padding: 15px;
+    height: auto;
+  }
+  .faq-section h2{
+    font-family: var(--font-family--3);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .faq-item {
+    border-bottom: 1px solid #cccccc5e;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  .question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    /* font-size: 16px; */
+  }
+  .answer {
+    margin-top: 5px;
+    color: #666;
+    display: none;
+    font-size: 13px;
+  }
+  .answer a{
+    color: var(--blue) !important;
+  }
+  
+  .label{
+    background-image: linear-gradient(to right, #91221ee6 ,#91221E);
+    color: var(--certfied-tag);
+    padding-top: calc(6px - 0px);
+    padding-bottom: calc(6px - 0px);
+    padding-left: calc(16px - 0px);
+    padding-right: calc(16px - 0px);
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 50px;
+    color: white;
+  }
+  .title{
+    padding: 10px 0px 0px 0px;
+    font-size: 32px;
+  }
+  .label1{
+    display: inline;
+    background-image: linear-gradient(to right, #7c292900, #00000000);
+    color: var(--certfied-tag);
+    padding-top: calc(6px - 0px);
+    padding-bottom: calc(6px - 0px);
+    padding-left: calc(16px - 0px);
+    padding-right: calc(16px - 0px);
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 50px;
+    border: 1px solid black;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .rating{
+    display: flex;
+    gap: 10px;
+  }
